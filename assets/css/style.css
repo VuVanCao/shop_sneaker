@@ -5,7 +5,6 @@
 }
 
 .app__img{
-    background: url(/assets/img/shoe_1.jpg);
     background-size: cover;
     width: 50%;
     height: 100vh;

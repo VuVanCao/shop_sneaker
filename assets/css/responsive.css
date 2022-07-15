@@ -1,0 +1,68 @@
+@media (max-width:1023px){
+    .hide-On-Talet-Mobile{
+        display: none;
+    }
+
+    .app__img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .heaer__nav-bar-icon{
+        display: block;
+    }
+
+    .down-arrow{
+        fill:white;
+        z-index: -1;
+    }
+   
+}
+
+/* tablet */
+@media (min-width:740px) and (max-width:1023px){
+    .hide-On-Tablet{
+        display: none;
+    }
+
+    .content-heading{
+        padding-top: 20vh;
+        font-size: 4em;
+        color: var(--white-color);
+    }
+
+    
+
+
+}
+
+/* mobile */
+@media (max-width:739px){
+    .hide-On-Mobile{
+        display: none;
+    }
+
+    .content-heading{
+        color: var(--white-color);
+        font-size: 2em;
+        padding-left: 20px;
+        padding-top: 30vh;
+        height: 92vh;
+    }
+
+    .home__product{
+        padding: 0 8px;
+    }
+
+    .header__nav-logo{
+        margin-left: 10px;
+    }
+
+    .heaer__nav-bar-icon{
+        margin-right: 10px;
+    }
+
+    .footer__head{
+        padding-left: 16px;
+    }
+}
